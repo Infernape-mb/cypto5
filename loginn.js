@@ -8,5 +8,6 @@ function validate()
 	}
 	else{
 		alert("Wrong password");
+		location.reload();
 	}
 }
